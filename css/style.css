@@ -1,0 +1,11 @@
+
+.player {
+    background-color: green;
+    margin-top: 5em;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: blueviolet;
+}
