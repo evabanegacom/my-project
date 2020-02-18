@@ -2,6 +2,7 @@
 .player {
     background-color: green;
     margin-top: 5em;
+    display: flex;
 }
 
 .navbar {
