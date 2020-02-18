@@ -2,6 +2,7 @@
 .player {
     background-color: white;
     margin-top: 5em;
+    margin-left: 4em;
     display: flex;
     justify-content: space-between;
 
@@ -11,4 +12,13 @@
     position: fixed;
     top: 0;
     background-color: blueviolet;
+}
+
+#views{
+    flex-grow: 1;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
 }
