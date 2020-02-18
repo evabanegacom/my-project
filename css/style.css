@@ -1,8 +1,12 @@
 
 .player {
-    background-color: green;
+    background-color: white;
     margin-top: 5em;
     display: flex;
+<<<<<<< HEAD
+=======
+    justify-content: space-between;
+>>>>>>> 8fece5c3f4c7a9e05a37e13798cdcf12ab0abc87
 }
 
 .navbar {
