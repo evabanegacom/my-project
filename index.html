@@ -3,13 +3,35 @@
     <head>
         <title>Video Player</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel = "stylesheet" href = "css/style.css"/>
     </head>
     <body>
-        <nav class = "navbar">Navbar goes here</nav>
+        <div id = "menu" class="ui secondary menu">
+            <a class="active item">
+                <i class="fa fa-bars fa-2x"></i>
+            </a>
+            <a id = "youtube-logo" href="https://seeklogo.net/?p=92392" target="_blank" class = "item"><img src="https://seeklogo.net/wp-content/uploads/2017/08/youtube-logo.png"  alt="New YouTube logo (2017) vector for free download" /></a>
+            <div id = "form" class="item">
+                <div class="ui action input">
+                  <input type="text" placeholder="Search...">
+                  <button>
+                    <i class="search link icon"></i>
+                  </button>
+                </div>
+              </div>
+            <div class="right menu">
+              <a class="ui item">
+                Logout
+              </a>
+            </div>
+          </div>
+        <!-- <nav class = "navbar">Navbar goes here
+            <a href="https://seeklogo.net/?p=92392" target="_blank"><img src="https://seeklogo.net/wp-content/uploads/2017/08/youtube-logo.png"  alt="New YouTube logo (2017) vector for free download" /></a>
+        </nav> -->
         <div class = "player">
         <section class = "videobar">
-            <video controls width = "700">
+            <video controls width = "800">
                 <source src = "https://player.vimeo.com/external/347925779.sd.mp4?s=b37c83463e0c3db862daf2ff4c5823193d9d73c9&profile_id=139&oauth2_token_id=57447761">
             </video>
             <h2 class = "ui header">Github and Github tutorial for beginners!</h2>
@@ -17,29 +39,29 @@
             <div class="ui grid">
                 <div class="row">
                   <div id = "views" class="five wide column">
-                      <span class = "ui small header">90,000 views <i class = "dot circle icon"></i></span>Feb 9, 2020
+                      <span class = "ui small header">90,000 views <i class = "fa fa-dot-circle-o"></i></span> Feb 9, 2020
                   </div>
-                  <div class ="two wide column">
-                    <h2 class = "ui small header">
-                        <i class = "thumbs up outline icon"></i>
+                  <div id = "thumbs-up" class ="two wide column">
+                    <h2 id = "thumbs-up-header" class = "ui small header">
+                        <i class = "fa fa-thumbs-up "></i>
                         1.3k
                       </h2>
                   </div>
-                  <div class ="two wide column">
-                    <h2 class = "ui small header">
-                        <i class = "thumbs down outline icon"></i>
+                  <div id="thumbs-down" class ="two wide column">
+                    <h2 id= "thumbs-down-header" class = "ui small header">
+                        <i class = "fa fa-thumbs-down"></i>
                         900
                       </h2>
                   </div>
-                  <div class ="two wide column">
-                    <h2 class = "ui small header">
-                        <i class = "save icon"></i>
-                        Save
+                  <div id = "share" class ="two wide column">
+                    <h2 id="shareheader" class = "ui small header">
+                        <i class = "fa fa-share"></i>
+                        Share
                       </h2>
                   </div>
-                  <div class ="three wide column">
+                  <div id="save" class ="two wide column">
                     <h2 class = "ui small header">
-                        <i class = "share alternate icon"></i>
+                        <i class = "fa fa-save"></i>
                         Share
                       </h2>
                   </div>
