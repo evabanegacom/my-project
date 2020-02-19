@@ -8,6 +8,10 @@
 
 }
 
+.sidebar {
+    margin-left: 3em;
+}
+
 .navbar {
     position: fixed;
     top: 0;
