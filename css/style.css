@@ -1,10 +1,12 @@
 
 .player {
     background-color: white;
-    margin-top: 2em;
-    margin-left: 3em;
+    padding-top: 0.5em;
+    padding-left: 3em;
     display: flex;
     justify-content: space-between;
+    background-color: #f6f6f6;
+    margin-bottom: 1em;
 
 }
 
@@ -12,10 +14,6 @@
     margin-left: 3em;
 }
 
-.navbar {
-    position: fixed;
-    top: 0;
-}
 
 #views{
     flex-grow: 2;
@@ -34,14 +32,18 @@
 
 #youtube-logo.item{
     flex-grow: 0.4;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 #menu {
     margin-left: 3em;
+    height: 90px;
+    margin-bottom: 1px;
 }
 
 #form.item{
-    width: 500px;
+    width: 600px;
     height: 100px;
 }
 
@@ -71,12 +73,19 @@ input {
     width: 80px;
 }
 
-#thumbs-up-header{
+#thumbs-up-header.ui.small.header{
     width: 80px;
+    margin-right: 2px;
 }
 
 #thumbs-down-header{
     width: 80px;
+}
+
+#explain {
+    width: 600px;
+    margin-left: 2em;
+    margin-top: 1.5em;
 }
 
 
