@@ -1,8 +1,7 @@
 
 .player {
     background-color: white;
-    padding-top: 0.5em;
-    margin-top:70px;
+    padding-top: 9em;
     padding-left: 3em;
     display: flex;
     justify-content: space-between;
@@ -55,6 +54,10 @@ input {
 
 #share {
     padding-right: 0;
+}
+
+.videobar{
+    width:800px;
 }
 
 #save {
