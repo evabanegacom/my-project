@@ -1,10 +1,9 @@
 # Video Player
 
-> One paragraph statement about the project.
+We built a youtube html page.
 
 ![screenshot](screenshot/2020-02-20.png)
 
-We built a youtube html page.
 
 ## Built With
 
@@ -16,23 +15,10 @@ We built a youtube html page.
 [Live Demo Link](https://livedemo.com)
 
 
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+-Visual studio code editor.
 
 ## Authors
 
