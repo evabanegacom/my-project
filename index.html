@@ -4,116 +4,118 @@
         <title>Video Player</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel = "stylesheet" href = "css/style.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
     </head>
     <body>
-        <div id = "menu" class="ui top fixed secondary menu">
+        <div id="menu" class="ui top fixed secondary menu">
             <a class="item">
                 <i class="big bars icon"></i>
             </a>
-            <a id = "youtube-logo" href="https://seeklogo.net/?p=92392" target="_blank" class = "item"><img src="https://seeklogo.net/wp-content/uploads/2017/08/youtube-logo.png"  alt="New YouTube logo (2017) vector for free download" /></a>
-            <div id = "form" class="item">
+            <a id="youtube-logo" href="https://seeklogo.net/?p=92392" target="_blank" class="item"><img src="https://seeklogo.net/wp-content/uploads/2017/08/youtube-logo.png"  alt="New YouTube logo (2017) vector for free download" />
+            </a>
+            <div id="form" class="item">
                 <div class="ui action input">
-                  <input type="text" placeholder="Search...">
-                  <button>
-                    <i class="search link icon"></i>
-                  </button>
+                    <input type="text" placeholder="Search...">
+                    <button>
+                        <i class="search link icon"></i>
+                    </button>
                 </div>
-              </div>
+            </div>
             <div class="right menu">
               <a class="ui item">
                 <i class="large video icon"></i>
               </a>
-              <a class = "ui item">
+              <a class="ui item">
                 <i class="large th icon"></i>
               </a>
-              <a class = "ui item">
-                <i class= "large bell icon" ></i>
+              <a class="ui item">
+                <i class="large bell icon" ></i>
               </a>
-              <a class = "ui item">
-                <img class = "ui mini circular image" src = "https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg"/> 
-
+              <a class="ui item">
+                <img class="ui mini circular image" src="https://mdbootstrap.com/img/Photos/Avatars/img%20(3).jpg"/> 
               </a>
             </div>
-          </div>
-        <div class = "player">
-        <section class = "videobar">
-            <video controls width = "800">
-                <source src = "https://player.vimeo.com/external/347925779.sd.mp4?s=b37c83463e0c3db862daf2ff4c5823193d9d73c9&profile_id=139&oauth2_token_id=57447761">
-            </video>
-            <h2 class = "ui header">Github and Github tutorial for beginners!</h2>
-            <div class = "ui hidden divider"></div>
-            <div class="ui grid">
-                <div class="row">
-                  <div id = "views" class="five wide column">
-                      <span class = "ui small header">90,000 views <i class = "fa fa-dot-circle-o"></i></span> Feb 9, 2020
-                  </div>
-                  <div id = "thumbs-up" class ="two wide column">
-                    <h2 id = "thumbs-up-header" class = "ui small header">
-                        <i class = "fa fa-thumbs-up "></i>
-                        1.3k
-                      </h2>
-                  </div>
-                  <div id="thumbs-down" class ="one wide column">
-                    <h2 id= "thumbs-down-header" class = "ui small header">
-                        <i class = "fa fa-thumbs-down"></i>
-                        900
-                      </h2>
-                  </div>
-                  <div id = "share" class ="two wide column">
-                    <h2 id="shareheader" class = "ui small header">
-                        <i class = "fa fa-share"></i>
-                        Share
-                      </h2>
-                  </div>
-                  <div id="save" class ="two wide column">
-                    <h2 class = "ui small header">
-                        <i class = "fa fa-save"></i>
-                        Save
-                      </h2>
-                  </div>
-                </div>
-            </div> 
-            <div class = "ui divider"></div>
-            <section class = "info">
-                <div>
-                  <h3 class="ui header">
-                    <img src = "https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="ui circular image">
-                    <div class = "content">
-                      LisaYoutuber
-                      <div class = "sub header">2.4M subscribers</div>
+        </div>
+        <div class="player">
+            <section class="videobar">
+                <video controls width="800">
+                    <source src ="https://player.vimeo.com/external/347925779.sd.mp4?s=b37c83463e0c3db862daf2ff4c5823193d9d73c9&profile_id=139&oauth2_token_id=57447761">
+                </video>
+                <h2 class="ui header">
+                    Github and Github tutorial for beginners!
+                </h2>
+                <div class="ui hidden divider"></div>
+                <div class="ui grid">
+                    <div class="row">
+                        <div id="views" class="five wide column">
+                            <span class="ui small header">90,000 views <i class="fa fa-dot-circle-o"></i></span> Feb 9, 2020
+                        </div>
+                        <div id="thumbs-up" class="two wide column">
+                            <h2 id="thumbs-up-header" class="ui small header">
+                                <i class="fa fa-thumbs-up "></i>
+                                1.3k
+                            </h2>
+                        </div>
+                        <div id="thumbs-down" class="one wide column">
+                            <h2 id="thumbs-down-header" class="ui small header">
+                                <i class="fa fa-thumbs-down"></i>
+                                900
+                            </h2>
+                        </div>
+                        <div id="share" class="two wide column">
+                            <h2 id="shareheader" class="ui small header">
+                                <i class="fa fa-share"></i>
+                                Share
+                            </h2>
+                        </div>
+                        <div id="save" class="two wide column">
+                            <h2 class="ui small header">
+                                <i class="fa fa-save"></i>
+                                Save
+                            </h2>
+                        </div>
                     </div>
-                  </h3>
-            </div>
-            <button class = "large ui red button">SUBSCRIBE</button>
-            </section>
-            <section id = "explain">
-              <p>
-                Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”
-              <p>
-                <h4 class = "ui grey header">SHOW MORE</h4>
-            </section>
-            <div class = "ui divider"></div>
-
-            <div class = "ui center aligned basic segment">
-              <h3 class = "ui grey header">Comments are turned off!</h3>
-            </div>
-            
-        </section>
-        <section class = "sidebar">
-            <div class="ui items">
-                <div class="item">
-                  <div class="image">
-                    <img src="https://images.pexels.com/photos/164988/pexels-photo-164988.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-                  </div>
-                  <div class="content">
-                    <a class="header">Empire state building</a>
-                    <div class="meta">
-                      <span>290k views</span>
+                </div> 
+                <div class="ui divider"></div>
+                <section class="info">
+                    <div>
+                        <h3 class="ui header">
+                            <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="ui circular image">
+                            <div class="content">
+                                LisaYoutuber
+                                <div class="sub header">2.4M subscribers
+                                </div>
+                            </div>
+                        </h3>
                     </div>
-                  </div>
+                    <button class="large ui red button">SUBSCRIBE</button>
+                </section>
+                <section id="explain">
+                    <p>
+                        Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real. 
+                    <p>
+                <h4 class="ui grey header">SHOW MORE</h4>
+                </section>
+                <div class="ui divider"></div>
+                <div class="ui center aligned basic segment">
+                    <h3 class="ui grey header">Comments are turned off!</h3>
                 </div>
             
+            </section>
+            <section class="sidebar">
+                <div class="ui items">
+                    <div class="item">
+                        <div class="image">
+                            <img src="https://images.pexels.com/photos/164988/pexels-photo-164988.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <div class="content">
+                            <a class="header">Empire state building</a>
+                            <div class="meta">
+                                <span>290k views</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
                 <div class="ui items">
                     <div class="item">
                       <div class="image">
@@ -126,11 +128,11 @@
                         </div>
                       </div>
                     </div>
-        
-                    <div class="ui items">
-                        <div class="item">
+                </div>    
+                <div class="ui items">
+                    <div class="item">
                           <div class="image">
-                            <img src="https://images.pexels.com/photos/726478/pexels-photo-726478.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                                <img src="https://images.pexels.com/photos/726478/pexels-photo-726478.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
                           </div>
                           <div class="content">
                             <a class="header">The great white shark</a>
@@ -138,65 +140,62 @@
                               <span>10k views</span>
                             </div>
                           </div>
+                    </div>
+                </div>
+                <div class="ui items">
+                    <div class="item">
+                        <div class="image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRiaAzHYuchtCO2HMvVp1Ucepw4XM6tItbCYOKHjm3YNCCkzJ-n">
                         </div>
-                        <div class="ui items">
-                            <div class="item">
-                              <div class="image">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRiaAzHYuchtCO2HMvVp1Ucepw4XM6tItbCYOKHjm3YNCCkzJ-n">
-                              </div>
-                              <div class="content">
-                                <a class="header">Cristiano Dos Santos Aveiro balon d'or winner 2017</a>
-                                <div class="meta">
-                                  <span>5k views</span>
-                                </div>
-                              </div>
+                        <div class="content">
+                            <a class="header">Cristiano Dos Santos Aveiro balon d'or winner 2017</a>
+                            <div class="meta">
+                                <span>5k views</span>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui items">
+                    <div class="item">
+                        <div class="image">
+                            <img src="https://images.pexels.com/photos/669729/pexels-photo-669729.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <div class="content">
+                            <a class="header">How to make banana bread</a>
+                            <div class="meta">
+                                <span>25k views</span>
                             </div>
-                            <div class="ui items">
-                              <div class="item">
-                                <div class="image">
-                                  <img src="https://images.pexels.com/photos/669729/pexels-photo-669729.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-                                </div>
-                                <div class="content">
-                                  <a class="header">How to make banana bread</a>
-                                  <div class="meta">
-                                    <span>25k views</span>
-                                  </div>
-                                </div>
-                              </div>
-                              </div>
-                              <div class="ui items">
-                                <div class="item">
-                                  <div class="image">
-                                    <img src="https://images.pexels.com/photos/3746278/pexels-photo-3746278.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-                                  </div>
-                                  <div class="content">
-                                    <a class="header">How to wash your afro hair</a>
-                                    <div class="meta">
-                                      <span>305k views</span>
-                                    </div>
-                                  </div>
-                                </div>
-                                </div>
-                                <div class="ui items">
-                                  <div class="item">
-                                    <div class="image">
-                                      <img src="https://images.pexels.com/photos/913137/pexels-photo-913137.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-                                    </div>
-                                    <div class="content">
-                                      <a class="header">High fashion tea party</a>
-                                      <div class="meta">
-                                        <span>19k views</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  </div>
-            
-        
-        </section>
-
+                        </div>
+                    </div>
+                </div>
+                <div class="ui items">
+                    <div class="item">
+                        <div class="image">
+                            <img src="https://images.pexels.com/photos/3746278/pexels-photo-3746278.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <div class="content">
+                            <a class="header">How to wash your afro hair</a>
+                            <div class="meta">
+                                <span>305k views</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui items">
+                    <div class="item">
+                        <div class="image">
+                            <img src="https://images.pexels.com/photos/913137/pexels-photo-913137.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                        </div>
+                        <div class="content">
+                            <a class="header">High fashion tea party</a>
+                            <div class="meta">
+                                <span>19k views</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </section>
         </div>
-
     </body>
 </html>
 

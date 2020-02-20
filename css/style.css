@@ -16,7 +16,7 @@
 }
 
 
-#views{
+#views {
     flex-grow: 2;
 }
 
@@ -25,13 +25,13 @@
     justify-content: space-between;
 }
 
-#youtube-logo img{
+#youtube-logo img {
     width: 90px;
     height: 90px;
    
 }
 
-#youtube-logo.item{
+#youtube-logo.item {
     flex-grow: 0.4;
     padding-left: 0;
     margin-left: 0;
@@ -44,7 +44,7 @@
     background-color:white;
 }
 
-#form.item{
+#form.item {
     width: 600px;
     height: 100px;
 }
@@ -53,29 +53,29 @@ input {
     height: 40px;
 }
 
-#share{
+#share {
     padding-right: 0;
 }
 
-#save{
+#save {
     padding-left: 0;
 }
 
-#shareheader{
+#shareheader {
     width: 100px;
 }
 
-#thumbs-up{
+#thumbs-up {
     padding-right: 0;
 }
 
-#thumbs-down{
+#thumbs-down {
     padding-right: 0;
     padding-left: 0;
     width: 80px;
 }
 
-#thumbs-up-header.ui.small.header{
+#thumbs-up-header.ui.small.header {
     width: 80px;
     margin-right: 2px;
 }
