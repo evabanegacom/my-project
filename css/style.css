@@ -1,14 +1,93 @@
 
 .player {
     background-color: white;
-    margin-top: 5em;
+    padding-top: 9em;
+    padding-left: 3em;
     display: flex;
     justify-content: space-between;
+    background-color: #f6f6f6;
+    margin-bottom: 1em;
 
 }
 
-.navbar {
-    position: fixed;
-    top: 0;
-    background-color: blueviolet;
+.sidebar {
+    margin-left: 3em;
 }
+
+
+#views {
+    flex-grow: 2;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#youtube-logo img {
+    width: 90px;
+    height: 90px;
+   
+}
+
+#youtube-logo.item {
+    flex-grow: 0.4;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#menu {
+    margin-left: 0.8em;
+    height: 90px;
+    margin-bottom: 1px;
+    background-color:white;
+}
+
+#form.item {
+    width: 600px;
+    height: 100px;
+}
+
+input {
+    height: 40px;
+}
+
+#share {
+    padding-right: 0;
+}
+
+#save {
+    padding-left: 0;
+}
+
+#shareheader {
+    width: 100px;
+}
+
+#thumbs-up {
+    padding-right: 0;
+}
+
+#thumbs-down {
+    padding-right: 0;
+    padding-left: 0;
+    width: 80px;
+}
+
+#thumbs-up-header.ui.small.header {
+    width: 80px;
+    margin-right: 2px;
+}
+
+#thumbs-down-header{
+    width: 80px;
+}
+
+#explain {
+    width: 600px;
+    margin-left: 2em;
+    margin-top: 1.5em;
+}
+
+
+
